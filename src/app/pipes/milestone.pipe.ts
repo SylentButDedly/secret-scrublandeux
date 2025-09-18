@@ -814,6 +814,23 @@ export class MilestonePipe implements PipeTransform {
           case '2025-8-5':
           case '2025-08-05':
             return ' | Solstice'
+          case '2025-9-2':
+          case '2025-09-02':
+            return ' | Heavy Metal'
+          case '2025-9-9':
+          case '2025-09-09':
+            return ' | Major Update: Ash & Iron'
+          case '2025-9-16':
+          case '2025-09-16':
+            return ' | Iron Banner'
+          case '2025-9-27':
+          case '2025-09-27':
+            return ' | Epic Raid: The Desert Prepetual'
+          case '2025-10-7':
+          case '2025-10-07':
+            return ' | Arms Week'
+          case '2025-10-21':
+            return ' | Festival of the Lost'
           default:
             return ''
         }
@@ -875,6 +892,7 @@ export class MilestonePipe implements PipeTransform {
           case '2022-10-18':
           case '2023-10-17':
           case '2024-10-29':
+          case '2025-10-21':
             return (classes += 'festival-of-the-lost')
           case '2018-12-4':
           case '2018-12-04':
@@ -971,6 +989,8 @@ export class MilestonePipe implements PipeTransform {
           case '2024-06-07':
           case '2025-7-19':
           case '2025-07-19':
+          case '2025-9-27':
+          case '2025-09-27':
             return (classes += 'raid')
           case '2022-8-23':
           case '2022-08-23':
@@ -1177,6 +1197,8 @@ export class MilestonePipe implements PipeTransform {
           case '2025-04-29':
           case '2025-5-20':
           case '2025-05-20':
+          case '2025-9-16':
+          case '2025-09-16':
             return (classes += 'iron-banner')
           case '2024-10-8':
           case '2024-10-08':
@@ -1196,13 +1218,20 @@ export class MilestonePipe implements PipeTransform {
             return (classes += 'rite-of-the-nine')
           case '2025-5-9':
           case '2025-05-09':
+          case '2025-9-2':
+          case '2025-09-02':
             return (classes += 'heavy-metal')
           case '2025-7-15':
           case '2025-07-15':
             return (classes += 'edge-of-fate')
           case '2025-7-29':
           case '2025-07-29':
+          case '2025-10-7':
+          case '2025-10-07':
             return (classes += 'arms-week')
+          case '2025-9-9':
+          case '2025-09-09':
+            return (classes += 'ash-and-iron')
           default:
             return ''
         }
