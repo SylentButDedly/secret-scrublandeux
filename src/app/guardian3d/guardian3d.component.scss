@@ -334,6 +334,12 @@
     mask-image: url('../../assets/icons/arms-week.png');
     background-color: inherit;
   }
+
+  &.ash-and-iron:before {
+    -webkit-mask-image: url('../../assets/icons/ash-and-iron.png');
+    mask-image: url('../../assets/icons/ash-and-iron.png');
+    background-color: inherit;
+  }
 }
 
 @media (prefers-reduced-motion) {
