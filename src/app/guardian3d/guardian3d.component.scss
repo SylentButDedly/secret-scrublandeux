@@ -340,6 +340,12 @@
     mask-image: url('../../assets/icons/ash-and-iron.png');
     background-color: inherit;
   }
+
+  &.renegades:before {
+    -webkit-mask-image: url('../../assets/icons/renegades.png');
+    mask-image: url('../../assets/icons/renegades.png');
+    background-color: inherit;
+  }
 }
 
 @media (prefers-reduced-motion) {
