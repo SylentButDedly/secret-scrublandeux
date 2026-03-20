@@ -1250,8 +1250,8 @@ export class MilestonePipe implements PipeTransform {
           case '2025-9-9':
           case '2025-09-09':
             return (classes += 'ash-and-iron')
-          case '2025-12-2':
-          case '2025-12-02':
+          case '2026-12-2':
+          case '2026-12-02':
             return (classes += 'renegades') 
           default:
             return ''
