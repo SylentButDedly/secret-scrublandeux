@@ -786,7 +786,7 @@ export class MilestonePipe implements PipeTransform {
             return ' | Iron Banner'
           case '2025-3-11':
           case '2025-03-11':
-            return ' | Episode: Heresy - Act II'
+            return ' | Episode: Heresy - Act II | Guardian Games'
           case '2025-4-1':
           case '2025-04-01':
             return ' | Episode Heresy - Act III | Iron Banner'
@@ -831,6 +831,20 @@ export class MilestonePipe implements PipeTransform {
             return ' | Arms Week'
           case '2025-10-21':
             return ' | Festival of the Lost'
+          case '2025-11-11':
+            return ' | Call to Arms'
+          case '2025-12-2':
+            return 'Launch: Renegades | Season: Lawless'
+          case '2025-12-13':
+            return ' | Equilibrium Dungeon'
+          case '2025-12-16':
+            return ' | The Dawning'
+          case '2026-1-27':
+          case '2026-01-27':
+            return ' | Arms Week'
+          case '2026-3-24':
+          case '2026-03-24':
+            return ' | Guardian Games'
           default:
             return ''
         }
@@ -927,6 +941,8 @@ export class MilestonePipe implements PipeTransform {
           case '2023-05-02':
           case '2024-3-5':
           case '2024-03-05':
+          case '2026-3-24':
+          case '2026-03-24':
             return (classes += 'guardian-games')
           case '2020-6-9':
           case '2020-06-09':
@@ -1228,10 +1244,15 @@ export class MilestonePipe implements PipeTransform {
           case '2025-07-29':
           case '2025-10-7':
           case '2025-10-07':
+          case' 2026-1-27':
+          case '2026-01-27':
             return (classes += 'arms-week')
           case '2025-9-9':
           case '2025-09-09':
             return (classes += 'ash-and-iron')
+          case '2025-12-2':
+          case '2025-12-02':
+            return (classes += 'renegades') 
           default:
             return ''
         }
