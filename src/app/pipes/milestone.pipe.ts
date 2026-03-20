@@ -834,7 +834,7 @@ export class MilestonePipe implements PipeTransform {
           case '2025-11-11':
             return ' | Call to Arms'
           case '2025-12-2':
-            return 'Launch: Renegades | Season: Lawless'
+            return ' | Launch: Renegades | Season: Lawless'
           case '2025-12-13':
             return ' | Equilibrium Dungeon'
           case '2025-12-16':
